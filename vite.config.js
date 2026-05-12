@@ -4,4 +4,5 @@ import tailwindcss from '@tailwindcss/vite'    // <-- ADD THIS
  
 export default defineConfig({
   plugins: [react(), tailwindcss()],     	// <-- ADD 
+  base: '/capstone/',
 })
